@@ -1,0 +1,32 @@
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-4 {
+  -webkit-line-clamp: 4;
+}
+
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+
+.line-clamp-1 {
+  -webkit-line-clamp: 1;
+}
+
+.active>.page-link, .page-link.active {
+  background-color: #3f78e0;
+  color: white;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 300px;
+}
+.ck-content .image {
+  /* block images */
+  max-width: 80%;
+  margin: 20px auto;
+}
